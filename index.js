@@ -3,8 +3,8 @@ var servicio = document.getElementById("idservicio");
 var conocenos = document.getElementById("idconocenos");
 
 var ini = document.getElementById("inicio");
-if(window.location!="file:///C:/Users/Estudiante.UNIMAG-PC/Desktop/dia%2010/index.html"){
-    window.location.href = "file:///C:/Users/Estudiante.UNIMAG-PC/Desktop/dia%2010/index.html"
+if(window.location!="https://victor291201.github.io/AnchorNavigation-day10/"){
+    window.location.href = "https://victor291201.github.io/AnchorNavigation-day10/"
 }
 inicio.addEventListener("click",()=>{
     servicio.classList.remove("active");
