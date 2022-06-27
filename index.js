@@ -24,7 +24,7 @@ conocenos.addEventListener("click",()=>{
     conocenos.classList.add("active")
 })
 var URLactual = window.location;
-if(URLactual.toString().length>66){
+if(URLactual.toString().length>54){
     ini.classList.remove("ini");
     servicio.classList.remove("active");
     conocenos.classList.remove("active");
